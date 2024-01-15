@@ -21,16 +21,7 @@ public class Calculator {
             case '-':
                 result = number1 - number2;
                 break;
-            case '*':
-                result = number1 * number2;
-                break;
-            case '/':
-                if (number2 != 0) {
-                    result = number1 / number2;
-                } else {
-                    System.out.println("Ошибка: деление на ноль.");
-                    return;
-                }
+    
                 break;
             default:
                 System.out.println("Ошибка: неверный оператор.");
